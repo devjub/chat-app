@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aquamarine;
+}
+.chatapp {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(pexels-valdemaras-d-1647972.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav {
+    background-color: white;
+    align-items: center;
+    /* margin-top: 5px; */
+    display: flex;
+    
+    position: fixed;
+    width: 400px;
+    height: 50px;
+}
+.message {
+    color: blue;
+
+}
+.profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2.1px solid;
+    border-color: rgb(99, 99, 232);
+    margin-left: 20px;
+}
+.name {
+    margin-left: 10px;
+}
+.videocall {
+    height: 30px;
+    width: 30px;
+    right: 0;
+    position: absolute;
+    margin-right: 50px;
+}
+.voicecall {
+    height: 20px;
+    width: 20px;
+    right: 0;
+    position: absolute;
+    margin-right: 20px;
+}
+.footer {
+    background-color: rgb(231, 230, 230);
+    width: 400px;
+   height: 40px;
+   padding: 5px;
+   /* display: flex; */
+   /* justify-content: space-around; */
+   /* margin-top: 745px; */
+   position: fixed;
+   margin: auto;
+}
+#text {
+    border-radius: 30px;
+    border: 1px solid beige;
+    padding: 5px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 70px;
+    margin-top: -50px;
+    margin-left: 10px;
+}
+#text:focus {
+    outline: none;
+    color: black;
+}
+.camera {
+    margin-left: 10px;
+}
+.voice {
+    margin-left: 10px;
+}
+.send {
+    background-color: blue;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+}
+.add {
+    height: 18px;
+    width: 18px;
+    margin: auto;
+    margin-top: 5px;
+}
+.screen {
+    margin-top: 60px;
+    margin-bottom: 450px;
+    width: 400px;
+    height: 100px;
+    
+    
+}
+#screen {
+    color: black;
+    background-color: white;
+    /* width: 10px; */
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 50px;
+}

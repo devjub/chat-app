@@ -8,6 +8,7 @@ body {
 }
 .chatapp {
     width: 400px;
+
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -15,6 +16,10 @@ body {
     background-image: url(pexels-valdemaras-d-1647972.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    display: none;
+}
+.name {
+    display: none;
 }
 .nav {
     background-color: white;
@@ -101,9 +106,9 @@ body {
 }
 .screen {
     margin-top: 60px;
-    margin-bottom: 450px;
+    /* margin-bottom: 300px; */
     width: 400px;
-    height: 100px;
+    height: 674px;
     
     
 }
@@ -114,4 +119,160 @@ body {
     border-radius: 50px;
     padding: 10px;
     margin-top: 50px;
+}
+.home {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    height: 100vh;
+}
+.whatsapp {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+.edit {
+    color: blue;
+    font-size: 18px;
+    margin-top: -2px;
+
+}
+
+.right {
+
+    background-color: white;
+    align-items: center;
+    /* margin-top: 5px; */
+    display: flex;
+    
+    margin-right: 20px;
+    width: 0px;
+    height: 50px;
+    
+}
+.stat {
+    margin-right: 30px;
+}
+.calls {
+    margin-left: 90px;
+}
+.pen  {
+    margin-left: 10px;
+}
+.users {
+    margin-left: 30px ;
+}
+.chats {
+    margin-left: 30px;
+}
+.settings {
+  /* margin-right: 90px; */
+  margin-left: 47px;
+  margin-right: 35px;
+}
+.position {
+    margin-left: 320px;
+}
+
+.homefooter {
+    background-color:black;
+     position: fixed;
+     
+     display: flex;
+     flex-direction: row;
+     height: 70px;
+     width: 400px;
+     margin-left: -10px;
+margin-right: -10px;
+    margin-top: 700px;
+}
+.caller {
+    background-color: white;
+    text-align: center;
+    height: 100vh;
+    width: 400px;
+    color: black;
+    margin: auto;
+    display: none;
+}
+.calls {
+    margin-left: 15px;
+}
+.up {
+    margin-left: 10px;
+}
+.com {
+    margin-left: 25px;
+}
+.set {
+    margin-left: 10px;
+}
+.icon {
+    display: flex;
+    padding: 10px;
+    color: lightgray;
+    font-size: 15px;
+    justify-content: space-around;
+}
+.chas {
+    font-weight: 1500px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.searc {
+    border-radius: 10px;
+    width: 340px;
+    border: none;
+    height: 30px;
+    padding: 10px;
+    background-color: lightgray;
+}
+.search {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mid {
+    display: flex;
+    color: blue;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.people {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 380px;
+    /* height: 950px; */
+}
+.peop {
+    width: 50px;
+    height: 50px;
+}
+.cha {
+    display: flex;
+}
+.contac {
+    font-family: sans-serif;
+    font-weight: 1500px;
+    font-size: 20px;
+    /* display: block; */
+    margin-left: 10px;
+    
+}
+.tex {
+    margin-top: 25px;
+    margin-left: -100px;
+    color: gray;
+}
+.short {
+    margin-left: 60px;
+}
+.lo {
+    margin-left: -10px;
+    margin-right: -10px;
 }
